@@ -1,0 +1,54 @@
+
+/*--- Fonts Description -----------------------------------------------------------*/
+
+.-font-type--main {font-family: 'Raleway', sans-serif;}
+.-font--thin {font-weight: 300; line-height: 1.2;}
+.-font--regular {font-weight: 500; line-height: 1.2;}
+.-font--bold {font-weight: 700; line-height: 1.2;}
+.-font--havi {font-weight: 900; line-height: 1.2;}
+.-text-align--left {text-align: left;}
+.-text-align--center {text-align: center;}
+.-text-align--right {text-align: right;}
+.-text--normal {font-size: 16px; line-height: 1.3;}
+.-text--big {font-size: 65px; line-height: 1.2;}
+.-text--great {font-size: 85px; line-height: 1.2;}
+.-text--date-day {font-size: 38px; line-height: .8;}
+.-text--date-month {font-size: 20px; line-height: 1;}
+.-text--button {font-size: 30px; line-height: 1.2;}
+.-text--menu {font-size: 30px; line-height: 1.2;}
+.-text-color--light {color: rgba(255, 255, 255, 1);}
+.-text-color--dark {color: rgba(38, 38, 38, 1);}
+.-text-color--red {color:#ff2b58;}
+.-text--link {text-decoration: none;}
+
+
+/*--- Background Color Description -------------------------------------------------*/
+
+.-fone-color--dark {background-color: rgba(40, 40, 40, 1);}
+.-fone-color--dark-translucent {background-color: rgba(40, 40, 40, .5);}
+.-fone-color--light {background-color: rgba(255, 255, 255, 1);}
+.-fone-color--light {background-color: rgba(255, 255, 255, 1);}
+.-fone-color--yellow {background-color: rgba(255, 235, 45, 1);}
+.-fone-color--violet {background-color: rgba(175, 125, 250, 1);}
+.-fone-color--blue {background-color: rgba(110, 190, 250, 1);}
+.-fone-color--green {background-color: rgba(150, 185, 45, 1);}
+.-fone-color--lightgreen {background-color: rgba(0, 180, 180, 1);}
+.-fone-color--lightgreen-translucent {background-color: rgba(0, 180, 180, 0.4);}
+.-fone-color--grey {background-color: rgba(90, 130, 160, 1);}
+.-fone-color--orange {background-color: rgba(255, 95, 50, 1);}
+.-fone-color--red {background-color: rgba(250, 45, 60, 1);}
+.-fone-color--neutral {background-color: rgba(210, 210, 230, 1);}
+
+
+/*--- Logo Description -------------------------------------------------------------*/
+
+.-logo--small {width: 65px;}
+.-logo--big {width: 85px;}
+
+
+/*--- Image Description -------------------------------------------------------------*/
+
+.-blog-item-fone--kivi {background-image: url(/images/kiwi.png);}
+.-blog-item-fone--peas {background-image: url(/images/kiwi.png);}
+.-blog-item-fone--raspbery {background-image: url(/images/kiwi.png);}
+.-contact-container--fone {background-image: url(/images/footer-fone.webp);}

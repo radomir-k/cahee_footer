@@ -3,98 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/default.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <title>Contact</title>
 </head>
 
 <body>
-
-    <!-- CAHEE Footer Page -->
-    <div class="page page--color">
-        <div class="-contact -contact--fone">
-            <section class="-contact-header">
-                <div class="-contact-header--format">
-                    <h1 class="-text--font -text--big -text--color_dark -text--align_center">
+    <div class="page -fone-color--neutral">
+        <!-- Header Section -->
+        <div class="-main-container -fone-color--lightgreen -contact-container--fone">
+            <section class="-header -header--contact">
+                    <h1 class="-font-type--main -font--bold -text--great -text-color--dark -text-align--center">
                         Contact
                     </h1>
-                </div>
-                <div class="-contact-header--format">
-                   <p class="-text--font -text--thin -text--color_dark -text--align_center">
+                   <p class="-font-type--main -font--regular -text--normal -text-color--dark -text-align--center">
                         For new projects, ideas, business or anything
                         you'd like to discuss, contact with me!
                     </p>
-                </div>
             </section>
-
-            <section class="-contact-info_case">
-
-
-                <form class="-contact-info_box -contact-info_box_client--form">
-                    <div class="-contact-info_box_client--fild_small -contact-info_box_client--fild_color">
-                        <input class="-form-fild" type="text" name="client_name" placeholder="Your Name...">
-                    </div>
-                    <div class="-contact-info_box_client--fild_small -contact-info_box_client--fild_color">
-                        <input class="-form-fild" type="email" name="client_email" placeholder="Your Email Address...">
-                    </div>
-                    <div class="-contact-info_box_client--fild_small -contact-info_box_client--fild_color">
-                        <input class="-form-fild" type="email" name="client_phone" placeholder="Your Phone Number...">
-                    </div>
-                    <div class="-contact-info_box_client--fild_big -contact-info_box_client--fild_color">
-                        <textarea class="-form-fild" name="client_comment" placeholder="Type Your Message..."></textarea>
-                    </div>
-                    <div class="-contact-info_box_client--fild_small -contact-info_box_client--fild_color">
-                        <input class="" type="submit" value="Send">
-                    </div>
+            <!-- Container -->
+            <div class="-contact-info_case">
+                <!-- Adress Section -->
+                <form class="-contact-info_box" action="#" metod="get" autocomplete="off">
+                    <input  class="-contact-field -fone-color--lightgreen-translucent -font-type--main -text--normal -text-color--light -text-align--left"
+                            type="text"
+                            name="client_name"
+                            autofocus
+                            placeholder="Your Name...">
+                    <input  class="-contact-field -fone-color--lightgreen-translucent -font-type--main -text--normal -text-color--light -text-align--left"
+                            type="email"
+                            name="client_email"
+                            placeholder="Your Email Address...">
+                    <input  class="-contact-field -fone-color--lightgreen-translucent -font-type--main -text--normal -text-color--light -text-align--left"
+                            type="tel"
+                            name="client_phone"
+                            placeholder="Your Phone Number...">
+                    <textarea class="-contact-field -contact-field--big -fone-color--lightgreen-translucent -font-type--main -text--normal -text-color--light -text-align--left"
+                              name="client_comment"
+                              placeholder="Type Your Message..."></textarea>
+                    <input  class=""
+                            type="submit"
+                            value="Send">
                 </form>
-
-
+                <!-- Form Section -->
                 <div class="-contact-info_box">
-                    <div class="-contact-info_item">
-                        <div class="-contact-info_box--text_bold">
+                    <div class="-contact-field">
+                        <div class="-font-type--main -font--bold -text--normal -text--color_dark -text--align_left">
                             ADDRESS
                         </div>
-                        <div class="-contact-info_box--text_thin">
+                        <div class="-font-type--main -font--thin -text--normal -text--color_dark -text--align_left">
                             2583 Land Park Drive, Sacramento, California, USA
                         </div>
                     </div>
-                    <div class="-contact-info_item">
-                        <div class="-contact-info_box--text_bold">
+                    <div class="-contact-field">
+                        <div class="-font-type--main -font--bold -text--normal -text--color_dark -text--align_left">
                             EMAIL
                         </div>
-                        <div class="-contact-info_box--text_thin">
-                            <a class="-contact-info_box--link" href="mailto: cahee@domain.com">cahee@domain.com</a>
+                        <div class="-font-type--main -font--thin -text--normal -text--color_dark -text--align_left">
+                            <a class="-text-color--dark" href="mailto:cahee@domain.com">cahee@domain.com</a>
                         </div>
                     </div>
-                    <div class="-contact-info_item">
-                        <div class="-contact-info_box--text_bold">
+                    <div class="-contact-field">
+                        <div class="-font-type--main -font--bold -text--normal -text--color_dark -text--align_left">
                             PHONE
                         </div>
-                        <div class="-contact-info_box--text_thin">
-                            <a class="-contact-info_box--link" href="tel: +19168089876">+1 (916) 808-9876</a>
+                        <div class="-font-type--main -font--thin -text--normal -text--color_dark -text--align_left">
+                            <a class="-text-color--dark" href="tel:+19168089876">+1 (916) 808-9876</a>
                         </div>
                     </div>
                 </div>
-
-            </section>
-
-            <section class="-contact-footer -contact-footer--color">
-                <p class="-contact-footerbox">
+            </div>
+            <!-- Footer Section -->
+            <div class="-contact-footer -fone-color--dark">
+                <p class="-contact-footer_item -font-type--main -font--thin -text-color--light -text-align--center">
                     &copy; 2015 Company. All right reserved.
                 </p>
                 <img src="/images/cahee_logo_small.svg" alt="Cahee">
-                <p class="-contact-footerbox">
-                    Made with <span class="-contact-footerbox--text_red">&nbsp;love&nbsp;</span> by Auskteez
+                <p class="-contact-footer_item -font-type--main -font--thin -text-color--light -text-align--center">
+                    Made with <span class="-font--bold -text-color--red">&nbsp;love&nbsp;</span> by Auskteez
                 </p>
-            </section>
-
+            </div>
         </div>
-
-
     </div>
-
-
-
 </body>
 </html>
